@@ -24,6 +24,7 @@ public class Main {
         String pass=sc.next(user.getPassword());
         System.out.println(user.getAccountNo());
         System.out.println(user.withdrawMoney(money,pass));
+        System.out.println("Made changes");
 
         //ROI
         System.out.println(user.calculateInterest(10));
